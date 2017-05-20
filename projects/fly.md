@@ -33,7 +33,7 @@ summary: Fly! is a fun and interactive 3D flight simulator for kids.
   <p> We strived for a way to display lots of data in a simple, easy, and entertaining way that would appeal and inspire children. It's our hope that Fly! will encourage kids to find an adventure of their own.</p>
 
   <h1> RESOURCES </h1>
-  <ol>
+  <ul>
     <li> 3js </li>
     <li> jQuery </li>
     <li> Blender </li>
@@ -41,7 +41,7 @@ summary: Fly! is a fun and interactive 3D flight simulator for kids.
     <li> Google Geocoder </li>
     <li> Google Map's API </li>
     <li> NASA's Land Satellite Images </li>
-  </ol>
+  </ul>
   <h1> CODE </h1>
   <p> https://github.com/ilungj/nasa-space-app </p>
 
