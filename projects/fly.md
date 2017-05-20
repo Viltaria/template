@@ -13,9 +13,7 @@ labels:
 summary: Fly! is a fun and interactive 3D flight simulator for kids.
 ---
 
-<img class="ui centered middle image" width = "35%" src="../images/fly.png">
-<center>
-  <h1>INTRODUCTION</h1>
+<img class="ui centered middle image" width = "35%" src="../images/fly.png">  <h1>INTRODUCTION</h1>
 
   <p>Aloha!</p>
 
@@ -46,6 +44,4 @@ summary: Fly! is a fun and interactive 3D flight simulator for kids.
   <p> https://github.com/ilungj/nasa-space-app </p>
 
   You can learn more about the category the app targeted at [NASA SpaceApps](https://2017.spaceappschallenge.org/challenges/earth-and-us/whats-dinner/details).
-
-</center>
 
