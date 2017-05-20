@@ -13,7 +13,9 @@ labels:
 summary: Fly! is a fun and interactive 3D flight simulator for kids.
 ---
 
-<img class="ui centered middle image" width = "35%" src="../images/fly.png">  <h1>INTRODUCTION</h1>
+<img class="ui centered middle image" width = "35%" src="../images/fly.png">  
+
+  <h1>INTRODUCTION</h1>
 
   <p>Aloha!</p>
 
