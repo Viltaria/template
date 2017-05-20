@@ -43,5 +43,5 @@ summary: Fly! is a fun and interactive 3D flight simulator for kids.
   <h1> CODE </h1>
   <p> https://github.com/ilungj/nasa-space-app </p>
 
-<p> You can learn more about the category the app targeted at <a href="https://2017.spaceappschallenge.org/challenges/earth-and-us/whats-dinner/details">NASA SpaceApps</a>.</p>
+<p> You can learn more about the category the app targeted at <a href="https://2017.spaceappschallenge.org/challenges/earth-and-us/pilots-plus/details">NASA SpaceApps</a>.</p>
 
