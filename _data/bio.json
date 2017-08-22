@@ -43,8 +43,7 @@
     },
     {
       "name": "artificial intelligence",
-      "keywords": [
-      ]
+      "keywords": []
     }
   ],
   "skills": [
@@ -77,11 +76,21 @@
       "startDate": "2016-09-01",
       "endDate": "Present",
       "gpa": "",
-      "courses": [
-      ]
+      "courses": []
     }
   ],
   "work": [
+    {
+      "company": "github",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    }
   ],
   "volunteer": [
     {
@@ -97,8 +106,7 @@
       ]
     }
   ],
-  "awards": [
-  ],
+  "awards": [],
   "references": [
     {
       "name": "Available upon request",
