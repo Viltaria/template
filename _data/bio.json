@@ -106,7 +106,14 @@
       ]
     }
   ],
-  "awards": [],
+  "awards": [
+    {
+      "title": "m",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
   "references": [
     {
       "name": "Available upon request",
