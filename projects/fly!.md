@@ -6,11 +6,10 @@ title: Fly!
 permalink: projects/fly
 date: 2017
 labels:
-  
   - ThreeJS
   - Blender
-  
 summary: Fly! is a fun and interactive 3D flight simulator for kids.
+draft: false
 ---
 
 <img class="ui centered middle image" width = "35%" src="../images/fly.png">  
@@ -44,6 +43,6 @@ summary: Fly! is a fun and interactive 3D flight simulator for kids.
   </ul>
   <h1> CODE </h1>
   <p> https://github.com/ilungj/nasa-space-app </p>
+  <a href="https://www.facebook.com/jrdevleague/videos/1354630164629335/">Video</a>
 
 <p> You can learn more about the category the app targeted at <a href="https://2017.spaceappschallenge.org/challenges/earth-and-us/pilots-plus/details">NASA SpaceApps</a>.</p>
-
