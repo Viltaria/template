@@ -127,6 +127,18 @@
       "date": "August 2017 - September 2020",
       "awarder": "CompTIA",
       "summary": ""
+    },
+    {
+      "title": "Pynight: Python Programming Competition Winner",
+      "date": "June 2017",
+      "awarder": "Booz Allen",
+      "summary": "Defeated the competition at a Python Programming Competition hosted by Booz Allen. Part of Team \"Azure\"."
+    },
+    {
+      "title": "NASA Space Apps Challenge Hackathon People's Choice Winner",
+      "date": "May 2017",
+      "awarder": "NASA",
+      "summary": "Won \"Best Creative\" on Fly!, a 3D flight simulator for kid passengers to explore what's beneath their flight using custom 3D models and controls. Users can fly around the globe and see what the weather is like through animations. They can also check to see what's nearby."
     }
   ],
   "references": [
