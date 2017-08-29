@@ -29,20 +29,26 @@
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Internet of Things",
       "keywords": [
         "Arduino",
         "Rasberry PI"
       ]
     },
     {
-      "name": "data mining",
+      "name": "Data Mining",
       "keywords": [
         "Selenium"
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Cyber Security",
+      "keywords": [
+        "Grey Hats"
+      ]
+    },
+    {
+      "name": "",
       "keywords": []
     }
   ],
