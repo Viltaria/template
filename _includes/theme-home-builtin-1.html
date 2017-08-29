@@ -26,6 +26,10 @@
         </div>
       </div>
       <div class="center aligned content">
+        <div class="loader">
+          <div id="largeBox"></div>
+          <div id="smallBox"></div>
+        </div>
         <div class="description">
           Interests:
           {% for interest in site.data.bio.interests %}
@@ -47,10 +51,6 @@
         <a href="{{ site.baseurl}}/bio/">
           <button class="ui basic button">{{ site.bio-page-label }}</button>
         </a>
-      </div>
-      <div class="loader">
-        <div id="largeBox"></div>
-        <div id="smallBox"></div>
       </div>
     </div>
   </div>
