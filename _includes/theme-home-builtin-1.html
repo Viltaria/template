@@ -50,146 +50,218 @@
       </div>
     </div>
   </div>
-
   <style>
-    * {
-    margin:0; padding:0;
-    box-sizing:border-box;
-  }
-  :root {
-    --bg:#4A5240;
-    --stairtop:#ADA8BE;
-    --stairface:#A28497;
-    --stairside:#6F5E5C;
-    --door:#C6CAED;
-  }
-  html, body {
-    background:var(--bg);
-    overflow:hidden;
-    height:100%;
-  }
-  #main-wrapper {
-    position:relative;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100%;
-  }
-  #stairs {
-    margin-top: 17em;
-    backface-visibility: hidden;
-    transform:rotateX(70deg) rotateZ(40deg);
-    transform-style: preserve-3d;
-    backface-visibility: hidden;
-  }
-  .item {
-    --startsize:0px;
-    --endsize:calc(var(--index) * 30px);
-    --largeur: 100px;
-    --longueur: 40px;
-    --duration:.3s;
-    --delay:calc(var(--index) * .3s);
-    position: relative;
-    display:block;
-    width: var(--largeur);
-    height: var(--longueur);
-    background: var(--stairtop);
-    transform: translateZ(var(--startsize));
-    transform-style: preserve-3d;
-    backface-visibility: hidden;
-    animation:stairs1 var(--duration) ease-out var(--delay) forwards;
-    -moz-animation:stairs1 1s ease-out .3s forwards;
-  }
-  @keyframes stairs1 {
-    to {
-      transform: translateZ(var(--endsize));
-    }
-  }
-  .item:after,
-  .item:before {
-    content: '';
-    position: absolute;
-    top:0; left:0;
-    backface-visibility: hidden;
-  }
-  .item:after {
-    height: var(--startsize);
-    width: var(--largeur);
-    background-color: var(--stairface);
-    transform: rotateX(-90deg) translateY(var(--startsize)) translateZ(calc(-1 * var(--startsize) + var(--longueur)));
-    transform-origin: 100% 100%;
-    animation:stairs2 var(--duration) ease-out var(--delay) forwards;
-    -moz-animation:stairs2 1s ease-out .3s forwards;
-  }
-  @keyframes stairs2 {
-    to {
-      height: var(--endsize);
-      transform: rotateX(-90deg) translateY(var(--endsize)) translateZ(calc(-1 * var(--endsize) + var(--longueur)));
-    }
-  }
-  .item:before {
-    height: var(--longueur);
-    width: var(--startsize);
-    background-color: var(--stairside);
-    transform: rotateY(90deg) translateX(var(--startsize)) translateZ(calc(-1 * var(--startsize) + var(--largeur)));
-    transform-origin: 100% 0;
-    animation:stairs3 var(--duration) ease-out var(--delay) forwards;
-    -moz-animation:stairs3 1s ease-out .3s forwards;
-  }
-  @keyframes stairs3 {
-    to {
-      width: var(--endsize);
-      transform: rotateY(90deg) translateX(var(--endsize)) translateZ(calc(-1 * var(--endsize) + var(--largeur)));
-    }
-  }
-  .door {
-    --size:170px;
-    --largeur: 100px;
-    --longueur: 20px;
-    position: relative;
-    display:block;
-    width: var(--largeur);
-    height: var(--longueur);
-    background: var(--stairtop);
-    transform:translateZ(320px);
-    transform-style: preserve-3d;
-    backface-visibility: hidden;
-  }
-  .door:after,
-  .door:before {
-    content: '';
-    position: absolute;
-    top:0; left:0;
-    backface-visibility: hidden;
-  }
-  .door:after {
-    height: var(--size);
-    width: var(--largeur);
-    transform: rotateX(-90deg) translateY(var(--size)) translateZ(calc(-1 * var(--size) + var(--longueur)));
-    transform-origin: 100% 100%;
-    background-color:var(--door);
-    background-image: radial-gradient(ellipse at 27px 95px, #333 0, #333 4px, transparent 5px);
-    box-shadow: inset 0px 0px 0px 6px var(--stairface), inset 2px -2px 0px 8px var(--stairside), inset 2px -1px 0px 16px var(--stairtop);
-  }
-  .door:before {
-    height: var(--longueur);
-    width: var(--size);
-    background-color: var(--stairside);
-    transform: rotateY(90deg) translateX(var(--size)) translateZ(calc(-1 * var(--size) + var(--largeur)));
-    transform-origin: 100% 0;
-  }
-  </style>
+  .btn--yp {
+  position: fixed;
+  z-index: 9;
+  bottom: 1rem;
+  right: 1rem;
+  border: solid 1rem transparent;
+  width: 4.625rem;
+  height: 3.25rem;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2017/icon-yp.svg) 50%/cover content-box;
+  text-indent: 200vw;
+  text-shadow: none;
+  -webkit-filter: grayscale(1) drop-shadow(0 0 1px #e8e0e0);
+          filter: grayscale(1) drop-shadow(0 0 1px #e8e0e0);
+  -webkit-transition: .5s;
+  transition: .5s;
+  white-space: nowrap;
+}
+.btn--yp:before {
+  position: absolute;
+  left: 0;
+  bottom: 100%;
+  margin: 1rem -.5rem;
+  padding: .5rem;
+  width: 100%;
+  border-radius: 5px;
+  background: #e8e0e0;
+  color: #000;
+  font: 1rem/1.25rem trebuchet ms, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0vw;
+  white-space: normal;
+  -webkit-animation: float 1s ease-in-out infinite alternate;
+          animation: float 1s ease-in-out infinite alternate;
+  content: attr(data-txt);
+}
+.btn--yp:hover, .btn--yp:focus {
+  outline: none;
+  -webkit-filter: grayscale(0) drop-shadow(0 0 1px crimson);
+          filter: grayscale(0) drop-shadow(0 0 1px crimson);
+}
 
-  <div id="main-wrapper">
-    <div id="stairs">
-      <div class="door"></div>
-      <div class="item" style="--index:5;"></div>
-      <div class="item" style="--index:4;"></div>
-      <div class="item" style="--index:3;"></div>
-      <div class="item" style="--index:2;"></div>
-      <div class="item" style="--index:1;"></div>
-      <div class="item" style="--index:0;"></div>
-    </div>
-  </div>
+@-webkit-keyframes float {
+  to {
+    -webkit-transform: translateY(0.75rem);
+            transform: translateY(0.75rem);
+  }
+}
+
+@keyframes float {
+  to {
+    -webkit-transform: translateY(0.75rem);
+            transform: translateY(0.75rem);
+  }
+}
+html {
+  background: #140032;
+}
+
+.spike {
+  --i: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -1.25vmin -18.75vmin;
+  width: 2.5vmin;
+  height: 2.5vmin;
+  border-radius: 50%;
+  -webkit-transform-origin: 18.75vmin 50%;
+          transform-origin: 18.75vmin 50%;
+  --base: rotate(calc(var(--i)*12*1deg)) translate(28.125vmin);
+  -webkit-transform: var(--base) scale(1);
+          transform: var(--base) scale(1);
+  box-shadow: 0vmin 0 currentcolor, 0vmin 0 3em currentcolor, 1.25vmin 0 currentcolor, 1.25vmin 0 3em currentcolor, 2.5vmin 0 currentcolor, 2.5vmin 0 3em currentcolor, 3.75vmin 0 currentcolor, 3.75vmin 0 3em currentcolor, 5vmin 0 currentcolor, 5vmin 0 3em currentcolor, 6.25vmin 0 currentcolor, 6.25vmin 0 3em currentcolor, 7.5vmin 0 currentcolor, 7.5vmin 0 3em currentcolor, 8.75vmin 0 currentcolor, 8.75vmin 0 3em currentcolor, 10vmin 0 currentcolor, 10vmin 0 3em currentcolor, 11.25vmin 0 currentcolor, 11.25vmin 0 3em currentcolor, 12.5vmin 0 currentcolor, 12.5vmin 0 3em currentcolor, 13.75vmin 0 currentcolor, 13.75vmin 0 3em currentcolor, 15vmin 0 currentcolor, 15vmin 0 3em currentcolor, 16.25vmin 0 currentcolor, 16.25vmin 0 3em currentcolor, 17.5vmin 0 currentcolor, 17.5vmin 0 3em currentcolor, 18.75vmin 0 currentcolor, 18.75vmin 0 3em currentcolor, 20vmin 0 currentcolor, 20vmin 0 3em currentcolor, 21.25vmin 0 currentcolor, 21.25vmin 0 3em currentcolor, 22.5vmin 0 currentcolor, 22.5vmin 0 3em currentcolor, 23.75vmin 0 currentcolor, 23.75vmin 0 3em currentcolor, 25vmin 0 currentcolor, 25vmin 0 3em currentcolor, 26.25vmin 0 currentcolor, 26.25vmin 0 3em currentcolor, 27.5vmin 0 currentcolor, 27.5vmin 0 3em currentcolor, 28.75vmin 0 currentcolor, 28.75vmin 0 3em currentcolor, 30vmin 0 currentcolor, 30vmin 0 3em currentcolor, 31.25vmin 0 currentcolor, 31.25vmin 0 3em currentcolor, 32.5vmin 0 currentcolor, 32.5vmin 0 3em currentcolor, 33.75vmin 0 currentcolor, 33.75vmin 0 3em currentcolor, 35vmin 0 currentcolor, 35vmin 0 3em currentcolor, 36.25vmin 0 currentcolor, 36.25vmin 0 3em currentcolor;
+  background: currentcolor;
+  color: hsl(calc(var(--i)*12), 100%, 50%);
+  -webkit-animation: a 0.75s ease-in-out calc(var(--i)*-0.075s) infinite;
+          animation: a 0.75s ease-in-out calc(var(--i)*-0.075s) infinite;
+}
+.spike:nth-child(2) {
+  --i: 1;
+}
+.spike:nth-child(3) {
+  --i: 2;
+}
+.spike:nth-child(4) {
+  --i: 3;
+}
+.spike:nth-child(5) {
+  --i: 4;
+}
+.spike:nth-child(6) {
+  --i: 5;
+}
+.spike:nth-child(7) {
+  --i: 6;
+}
+.spike:nth-child(8) {
+  --i: 7;
+}
+.spike:nth-child(9) {
+  --i: 8;
+}
+.spike:nth-child(10) {
+  --i: 9;
+}
+.spike:nth-child(11) {
+  --i: 10;
+}
+.spike:nth-child(12) {
+  --i: 11;
+}
+.spike:nth-child(13) {
+  --i: 12;
+}
+.spike:nth-child(14) {
+  --i: 13;
+}
+.spike:nth-child(15) {
+  --i: 14;
+}
+.spike:nth-child(16) {
+  --i: 15;
+}
+.spike:nth-child(17) {
+  --i: 16;
+}
+.spike:nth-child(18) {
+  --i: 17;
+}
+.spike:nth-child(19) {
+  --i: 18;
+}
+.spike:nth-child(20) {
+  --i: 19;
+}
+.spike:nth-child(21) {
+  --i: 20;
+}
+.spike:nth-child(22) {
+  --i: 21;
+}
+.spike:nth-child(23) {
+  --i: 22;
+}
+.spike:nth-child(24) {
+  --i: 23;
+}
+.spike:nth-child(25) {
+  --i: 24;
+}
+.spike:nth-child(26) {
+  --i: 25;
+}
+.spike:nth-child(27) {
+  --i: 26;
+}
+.spike:nth-child(28) {
+  --i: 27;
+}
+.spike:nth-child(29) {
+  --i: 28;
+}
+.spike:nth-child(30) {
+  --i: 29;
+}
+
+@-webkit-keyframes a {
+  to {
+    -webkit-transform: var(--base) scale(0);
+            transform: var(--base) scale(0);
+  }
+}
+
+@keyframes a {
+  to {
+    -webkit-transform: var(--base) scale(0);
+            transform: var(--base) scale(0);
+  }
+}
+</style>
+
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
+  <div class='spike'></div>
 
 </div>
