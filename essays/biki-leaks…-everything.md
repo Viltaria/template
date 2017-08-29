@@ -6,13 +6,16 @@ date: 2017
 labels:
   - Bike
 draft: false
+image: images/biki.jpeg
+permalink: biki
 ---
 
-![Logo](biki.jpeg)
+![Logo](images/biki.jpeg)
+
 A couple days ago, Biki, Hawaii’s first bike sharing program launched.
 I was an early admirer of this program which is available for viewing at gobiki.org. But today an email came to my attention stating the following.
 
-![Email Body](biki_body.png)
+![Email Body](images/biki_body.png)
 
 As someone who is currently studying technology, I was shocked at the complete disregard for people’s privacy.
 They had sent out a mass email to all of their users with the same temporary password.
