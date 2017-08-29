@@ -16,12 +16,12 @@
     },
     "profiles": [
       {
-        "network": "github",
-        "username": "viltaria",
-        "url": "http://github.com/viltaria"
+        "network": "Github",
+        "username": "Viltaria",
+        "url": "http://github.com/Viltaria"
       },
       {
-        "network": "linkedin",
+        "network": "Linkedin",
         "username": "chongtyler",
         "url": "https://www.linkedin.com/in/chongtyler"
       }
