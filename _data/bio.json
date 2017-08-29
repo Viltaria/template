@@ -157,11 +157,17 @@
       "position": "President",
       "startDate": "2016",
       "endDate": "Present",
+      "summary": "A Cyber Security club.",
+      "highlights": []
+    },
+    {
+      "organization": "ACM Manoa",
+      "position": "Member",
+      "startDate": "2016",
+      "endDate": "Present",
+      "website": "acmanoa.github.io",
       "summary": "",
-      "highlights": [
-        "",
-        "Member, ACM Manoa, 2016-Present"
-      ]
+      "highlights": []
     }
   ],
   "awards": [
