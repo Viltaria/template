@@ -119,14 +119,14 @@
   ],
   "volunteer": [
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
+      "organization": "UHM Grey Hats",
+      "website": "greyhats.club/",
+      "position": "President",
+      "startDate": "2016",
+      "endDate": "Present",
       "summary": "",
       "highlights": [
-        "President, UHM Grey Hats, 2016-Present",
+        "",
         "Member, ACM Manoa, 2016-Present"
       ]
     }
