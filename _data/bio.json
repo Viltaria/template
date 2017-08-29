@@ -85,7 +85,12 @@
       "startDate": "2016-09-01",
       "endDate": "Present",
       "gpa": "3.5",
-      "courses": []
+      "courses": [
+        "ICS241",
+        "ICS111",
+        "ICS211",
+        "ICS141"
+      ]
     }
   ],
   "work": [
