@@ -168,6 +168,28 @@
       "website": "acmanoa.github.io",
       "summary": "",
       "highlights": []
+    },
+    {
+      "organization": "GenCyber Hawai'i",
+      "position": "Student Instructor",
+      "startDate": "June 2017",
+      "endDate": "June 2017",
+      "website": "https://gencyber-hi.org/",
+      "summary": "The GenCyber Hawai`i program provides summer cybersecurity camp experiences for students and teachers at the K-12 level. The goals of the program are to help all students understand correct and safe online behavior, increase diversity and interest in cybersecurity and careers in the cybersecurity workforce of the nation, and improve teaching methods for delivering cybersecurity content in K-12 computer science curricula.",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "organization": "Hawaii Cyber Challenge CTF",
+      "position": "Mentor",
+      "startDate": "August 2017",
+      "endDate": "August 2017",
+      "website": "",
+      "summary": "Student mentor for the Hawaii Cyber Challenge CTF",
+      "highlights": [
+        ""
+      ]
     }
   ],
   "awards": [
