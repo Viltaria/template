@@ -101,6 +101,17 @@
         "ICS211",
         "ICS141"
       ]
+    },
+    {
+      "institution": "",
+      "area": "",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "",
+      "gpa": "",
+      "courses": [
+        ""
+      ]
     }
   ],
   "work": [
@@ -122,6 +133,18 @@
       "startDate": "Present",
       "endDate": "Jan 2017",
       "summary": "Software Developer for the College of Arts and Humanities at the University of Hawaiʿi at Mānoa.",
+      "highlights": [
+        "",
+        ""
+      ]
+    },
+    {
+      "company": "Scholar's App",
+      "position": "Software Developer Intern",
+      "website": "scholarsapp.com",
+      "startDate": "Dec 2016",
+      "endDate": "Sept 2016",
+      "summary": "Worked as a intern for ScholarsApp on their web applications.",
       "highlights": [
         ""
       ]
