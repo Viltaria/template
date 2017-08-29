@@ -24,6 +24,11 @@
         "network": "Linkedin",
         "username": "chongtyler",
         "url": "https://www.linkedin.com/in/chongtyler"
+      },
+      {
+        "network": "Stack Overflow",
+        "username": "Tyler Chong",
+        "url": "https://stackoverflow.com/users/6482196/tyler-chong"
       }
     ]
   },
