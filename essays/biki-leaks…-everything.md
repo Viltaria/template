@@ -7,7 +7,6 @@ labels:
   - Bike
 draft: false
 image: images/biki.jpeg
-permalink: biki
 ---
 
 ![Logo](images/biki.jpeg)
