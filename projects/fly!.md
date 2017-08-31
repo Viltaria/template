@@ -42,9 +42,9 @@ draft: false
     <li> NASA's Land Satellite Images </li>
   </ul>
   <a href="https://github.com/ilungj/nasa-space-app">Code</a>
-  <div class="ui embed" data-source="youtube" data-id="NrLFIpm0wps" >
-  </div>
+<center>
+  <iframe src="https://www.facebook.com/plugins/video.php?    href=https%3A%2F%2Fwww.facebook.com%2Fjrdevleague%2Fvideos%2F1354630164629335%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 
-<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fjrdevleague%2Fvideos%2F1354630164629335%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+</center>
 
 <p> You can learn more about the category the app targeted at <a href="https://2017.spaceappschallenge.org/challenges/earth-and-us/pilots-plus/details">NASA SpaceApps</a>.</p>
