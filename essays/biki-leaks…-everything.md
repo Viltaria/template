@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: Biki Leaks… Everything
-date: 2017
+date: 2017-07-05
 labels:
   - Bike
 draft: false

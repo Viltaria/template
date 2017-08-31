@@ -4,8 +4,8 @@ type: essay
 draft: false
 image: images/vacay-square.png
 title: Software Engineering
-date: 2017
-labels: 
+date: 2017-08-30
+labels: null
 ---
 
 # Software Engineering and Me
