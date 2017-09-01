@@ -2,23 +2,23 @@
 layout: essay
 type: essay
 draft: false
-image: images/vacay-square.png
+image: images/baracktocat.jpg
 title: Software Engineering
-date: 2017
-labels: null
+date: 2017-08-31
+labels:
+  - HACC
 ---
 
 # Software Engineering and Me
 
 Software development has always been fascinating to me. Whether it be writing code or reading it, there is always fun to be had.
 
-Let me show you some examples. 
+One of my main goals in becoming a Software Engineer is to create an application that people will use. This goal is important to me because if people will use the applications I make, it will give me the confirmation I need. I hope to fulfill this goal of mine this year's HACC (Hawaii Annual Code Challenge). 
 
-1. [xhtml](https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags)
-2. [jsfuck](https://stackoverflow.com/questions/7202157/why-does-return-the-string-10)
+![](images/HACC-with-Flag-final.png)
 
-Wow! Wasn't that great!
+I am currently working on the UH_Wayfinder challenge, which is a challenge to give the University of Hawaii a better navigation system. This would stop random japanese tourists from asking you for directions, and would improve navigation for campus newcomers and visitors. 
 
-In software development, there is always some new framework to learn and new languages and new demos and new code to write.
+We are planning on creating both a mobile and a web application, which would allow users to either download our app or visit our website. This would allow for users to view the application on their phones easily, since our main goal is to make our application mobile friendly.
 
-_Even a broken clock is right twice a day._
+Hopefully this hackathon will allow me to fulfill my main goal so I can gain the confirmation I need.

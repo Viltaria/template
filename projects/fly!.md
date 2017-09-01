@@ -10,6 +10,7 @@ labels:
   - Blender
 summary: Fly! is a fun and interactive 3D flight simulator for kids.
 draft: false
+projecturl: https://github.com/ilungj/nasa-space-app
 ---
 
 <img class="ui centered middle image" width = "35%" src="../images/fly.png">  
@@ -41,7 +42,6 @@ draft: false
     <li> Google Map's API </li>
     <li> NASA's Land Satellite Images </li>
   </ul>
-  <a href="https://github.com/ilungj/nasa-space-app">Code</a>
 <center>
   <iframe src="https://www.facebook.com/plugins/video.php?    href=https%3A%2F%2Fwww.facebook.com%2Fjrdevleague%2Fvideos%2F1354630164629335%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 
