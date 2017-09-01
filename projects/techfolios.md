@@ -7,6 +7,8 @@ title: Techfolios
 date: 2017
 labels:
   - Techfolios
+  - Electron
+  - Node.JS
 summary: Easily create your technical portfolios using Techfolios.
 ---
 
