@@ -12,6 +12,10 @@ summary: Easily create your technical portfolios using Techfolios.
 
 Over the summer, I worked on Techfolios as a part of an ICS 499 class.
 
+<center>
+  <img style="height: 300px;" src="../images/techfolio_body.png"/>
+</center>
+
 Techfolios is meant to be a resource for people to build their professional techfolio portfolio, and I worked in a team in order to simplify that process through a Desktop application.
 
 This experience helped me gain experience in Node.js as well as Electron, Semantic-UI, and React as that was the tech stack.
