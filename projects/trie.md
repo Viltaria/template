@@ -8,6 +8,8 @@ labels:
   - Trie
   - Data Structure
 summary: A visualization demonstration of Tries.
+image: images/save-trees.jpg
+projecturl: http://viltaria.github.io/trie
 ---
 
 # A demonstration of Tries
