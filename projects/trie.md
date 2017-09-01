@@ -20,4 +20,6 @@ Tries allow you to insert and find strings in O(L) time (where L represent the l
 
 <center>
   <img style="height: 300px;" src="../images/trie.png"/>
+  <img style="height: 300px;" src="../images/trie_cat.png"/>
+
 </center>
