@@ -18,4 +18,6 @@ Tries are an efficient information retrieval data structure. Using tries, search
 ## Why
 Tries allow you to insert and find strings in O(L) time (where L represent the length of a single word). They also allow you to find words that have a single character different, a prefix in common, a character missing, etc.
 
-![](../images/trie.png)
+<center>
+  <img style="height: 300px;" src="../images/trie.png"/>
+</center>
