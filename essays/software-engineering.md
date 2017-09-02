@@ -4,7 +4,7 @@ type: essay
 draft: false
 image: images/baracktocat.jpg
 title: Software Engineering
-date: 2017-08-31
+date: 2017
 labels:
   - HACC
   - Software Engineering
