@@ -3,7 +3,7 @@ layout: essay
 type: essay
 draft: false
 title: Reflect on JavaScript
-date: 2017
+date: 2017-09-01
 labels:
   - JavaScript
   - Software Engineering
