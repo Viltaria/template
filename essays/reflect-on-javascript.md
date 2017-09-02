@@ -3,7 +3,7 @@ layout: essay
 type: essay
 draft: false
 title: Reflect on JavaScript
-date: 2017-09-01
+date: 2017
 labels:
   - JavaScript
   - Software Engineering
@@ -12,11 +12,11 @@ labels:
 
 # What do you think about Javascript so far?
 
-I think JavaScript is a fun and useful language whether your using it to code a project or write a simple script. It lets you quickly spin up examples and projects easily.
+I think JavaScript is a fun and useful language whether your using it to code a project or write a simple script. It lets you quickly spin up examples and projects easily, since you can use it for your front-end as well as your back-end through Node.js.
 
 # If you’re a complete newbie, how does it compare to other programming languages that you know? If you have prior experience, did you learn new things from this module, perhaps with respect to ES6? 
 
-I learned about what `for .. in` and `for ... of` loops do in respect to Arrays. Otherwise, everything that was in the module was review for me and I'm glad I read it since review is always good to do.
+I learned about what `for .. in` and `for ... of` loops do in respect to Arrays. Otherwise, everything that was in the module was review for me and I'm glad I read it since reviewing topics is always good to do.
 
 # Do you think Javascript is a good or bad programming language from a software engineering perspective?
 
