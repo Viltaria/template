@@ -48,13 +48,18 @@
     {
       "name": "Data Mining",
       "keywords": [
-        "Selenium"
+        "Selenium",
+        "Requests",
+        "Data Parsing"
       ]
     },
     {
       "name": "Cyber Security",
       "keywords": [
-        "Grey Hats"
+        "Grey Hats",
+        "Networking",
+        "Crypto",
+        "Exploitation"
       ]
     },
     {
