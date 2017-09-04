@@ -7,6 +7,7 @@ date: 2017
 labels:
   - Trie
   - Data Structure
+  - Moon.js
 summary: A visualization demonstration of Tries.
 image: images/save-trees.jpg
 ---
