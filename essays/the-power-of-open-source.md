@@ -3,7 +3,7 @@ layout: essay
 type: essay
 draft: false
 title: The Power Of Open Source
-date: 2017
+date: 2017-09-05
 labels:
   - Open Source
   - Stack Overflow
