@@ -13,7 +13,7 @@ labels:
 # Open Source
 
 <center>
-  <img style="height: 300px;" src="images/baracktocat.jpg"/>
+  <img style="height: 300px;" src="../images/baracktocat.jpg"/>
 </center>
 
 Many people underestimate the power of open source. I for one, am a firm believer that if the open source community didn't exist, the software engineering field would not be as developed as it is today.
