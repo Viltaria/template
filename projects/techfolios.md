@@ -2,7 +2,7 @@
 layout: project
 type: project
 draft: false
-image: images/techfolio.jpeg
+image: images/linkedin_logo.jpg
 title: Techfolios
 date: 2017
 labels:
