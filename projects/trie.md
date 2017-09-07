@@ -10,6 +10,7 @@ labels:
   - Moon.js
 summary: A visualization demonstration of Tries.
 image: images/save-trees.jpg
+projecturl: https://github.com/viltaria/trie
 ---
 
 # A demonstration of Tries

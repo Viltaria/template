@@ -11,6 +11,7 @@ labels:
   - NASA
 summary: Fly! is a fun and interactive 3D flight simulator for kids.
 draft: false
+projecturl: https://github.com/ilungj/nasa-space-app
 ---
 
 <img class="ui centered middle image" width = "35%" src="../images/fly.png">  

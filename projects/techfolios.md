@@ -10,6 +10,7 @@ labels:
   - Electron
   - Node.JS
 summary: Easily create your technical portfolios using Techfolios.
+projecturl: https://github.com/techfolios/designer-electron
 ---
 
 Over the summer, I worked on Techfolios as a part of an ICS 499 class.
