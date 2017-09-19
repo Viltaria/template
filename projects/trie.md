@@ -10,7 +10,6 @@ labels:
   - Moon.js
 summary: A visualization demonstration of Tries.
 image: images/save-trees.jpg
-projecturl: https://github.com/viltaria/trie
 ---
 
 # A demonstration of Tries
@@ -31,3 +30,5 @@ This project was meant to show the use cases for a trie vs. a typical flat JSON 
   <img style="height: 300px;" src="../images/trie_cat.png"/>
 
 </center>
+
+[Code](https://github.com/viltaria/trie)
