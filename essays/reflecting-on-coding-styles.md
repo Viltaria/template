@@ -3,8 +3,7 @@ layout: essay
 type: essay
 draft: false
 title: Reflecting on Coding Styles
-projecturl: https://github.com/viltaria/trie
-date: 2017-09-20
+date: 2017
 labels:
   - Coding Styles
   - Google Style Guide
@@ -32,4 +31,6 @@ They shouldn't have to worry about abiding by different coding standards and ide
   <img style="height: 300px;" src="../images/clean_code.jpg"/>
 </center>
 
-On the topic of coding standards and IntelliJ, getting that green checkmark has been pretty easy for the most part unless you are trying to put all your code on one line 😉. I have extreme OCD, so my code is always pretty clean for the most part. But on the topic of does a coding standard help you learn a language, my answer is that it might, but it's not the first thing I would do. When learning a new coding language, I would first look at examples of that language in use, not it's standards of code.
+On the topic of coding standards and IntelliJ, getting that green checkmark has been pretty easy for the most part unless you are trying to put all your code on one line 😉. I have extreme OCD, so my code is always pretty clean for the most part. 
+
+But on the topic of does a coding standard help you learn a language, my answer is that it might, but it's not the first thing I would do. When learning a new coding language, I would first look at examples of that language in use, not it's standards of code.
