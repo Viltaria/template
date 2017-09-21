@@ -3,7 +3,7 @@ layout: essay
 type: essay
 draft: false
 title: Reflecting on Coding Styles
-date: 2017
+date: 2017-09-20
 labels:
   - Coding Styles
   - Google Style Guide
