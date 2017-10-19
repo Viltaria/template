@@ -22,6 +22,6 @@ What if there was a place they could get free stuff? Introducing UHM Swap Meet, 
 # Our Execution
 UHM Swap Meet integrates the UH CAS login system, so users will be able to easily log in to the application without creating their own account.
 
-Our users will have a place to create new postings and advertise their free items. Other users will be able to access a feed that shows all new postings, filtered based on what they need.
+Our users will have a place to create new postings and advertise their free items, while other users will be able to access a feed that shows all new postings, filtered based on what they need.
 
 All you have to do is notify the poster that you are interested, arrange a pick-up time and location, and that's it! Enjoy your new microwave! Now you can turn your frozen pizza into a heated frozen pizza.
