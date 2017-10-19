@@ -4,7 +4,7 @@ type: essay
 draft: false
 image: images/meteor-logo.png
 title: Meteor Gotchas
-date: 2017
+date: 2017-10-19
 labels:
   - Software Engineering
   - Meteor
@@ -25,7 +25,7 @@ Meteor brings alot to the table for an open source framework. It pre-packages ev
 
 However, since Meteor is an open source framework, it also maintains the problems on being one.
 - Lack of Community Support
-- 
+-
 
 ## Some Problems I've Personally Had
 
