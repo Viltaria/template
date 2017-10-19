@@ -4,7 +4,7 @@ type: essay
 draft: false
 image: images/meteor-logo.png
 title: Meteor Gotchas
-date: 2017
+date: 2017-10-19
 labels:
   - Software Engineering
   - Meteor
