@@ -24,4 +24,4 @@ UHM Swap Meet integrates the UH CAS login system, so users will be able to easil
 
 Our users will have a place to create new postings and advertise their free items. Other users will be able to access a feed that shows all new postings, filtered based on what they need.
 
-All you have to do is notify the poster that you are interested, arrange a pick-up time and location, and that's it! Enjoy your new microwave!
+All you have to do is notify the poster that you are interested, arrange a pick-up time and location, and that's it! Enjoy your new microwave! Now you can turn your frozen pizza into a heated frozen pizza.
