@@ -4,7 +4,7 @@ type: essay
 draft: false
 image: images/meteor-logo.png
 title: Meteor Gotchas
-date: 2017-10-19
+date: 2017
 labels:
   - Software Engineering
   - Meteor
@@ -24,9 +24,10 @@ Meteor brings alot to the table for an open source framework. It pre-packages ev
 
 
 However, since Meteor is an open source framework, it also maintains the problems on being one.
-- Lack of Community Support
--
+1. <strong>Lack of Community Support.</strong> For around a year now, the popularity of Meteor has been declining in comparison to other OSFs.
 
 ## Some Problems I've Personally Had
 
-When developing the digits assignment, I haven't ran into many problems.
+When developing the digits assignment, I haven't ran into many problems. Some problems I've had were just little housekeeping problems, such as which file should I write the code in, and which files are associated with my current problem. My advice for anyone having the same problem is to always minimize the amount of tabs you have open in your current project, so you don't get lost in all of them.
+
+Another problem I've had, and one I haven't necessarily found the answer to yet is using meteor to it's maximum conjunction with IntelliJ. My advice for this is to read on the shortcuts IntelliJ offers and go on from there.
