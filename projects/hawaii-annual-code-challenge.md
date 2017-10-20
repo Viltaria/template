@@ -4,7 +4,7 @@ type: project
 draft: false
 image: images/hacc.jpg
 title: Hawaii Annual Code Challenge
-date: 2017-08-26
+date: 2017
 labels:
   - Hawaii Annual Code Challenge
 summary: LoveMilkTea, It's a map app!
