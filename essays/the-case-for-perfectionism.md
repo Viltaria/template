@@ -10,6 +10,9 @@ labels:
   - Style Guides
 ---
 
+# Design Patterns
+To me, design patterns are just ways of structuring code, something that many people do differently in the field of Software Engineering.
+
 # The Right or the Wrong
 
 Software Engineering is not only writing code, it is an art. And like any art, there is no necessarily right or wrong way to do things. Many software engineers write millions of lines of code every day. And whether they use Python, JavaScript, or Ruby, they all have their different ways of doing things, and neither of them necessarily right or wrong.
