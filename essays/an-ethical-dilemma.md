@@ -27,7 +27,7 @@ Speaking frankly, I know manyothers who have written many scripts or made applic
 
 ## The code I'm still ashamed of
 
-In ["The code I'm still ashamed of"](https://medium.freecodecamp.org/the-code-im-still-ashamed-of-e4c021dff55e), the author, Bill Sourour describes a scenario where he was faced with an extremely ethical decision. Working at a medical marketing firm, he is instructed to code up a forecast quiz where all the results lead to the same answer, buying a singular product. Consider the saying "all roads lead to Rome", but with medicine. Later on, he finds out that the prescription drug he has created the website for has led to the suicide of a young teenage girl. After this, he says nothing and just quits.
+In ["The code I'm still ashamed of"](https://medium.freecodecamp.org/the-code-im-still-ashamed-of-e4c021dff55e), the author Bill Sourour describes a scenario where he was faced with an extremely ethical decision. Working at a medical marketing firm, he was instructed to code up a forecast quiz where all the results led to the same answer, buying a singular product. Consider the saying "all roads lead to Rome", but with medicine. Later on, he finds out that the prescription drug he has created the website for has led to the suicide of a young teenage girl. After this, he says nothing and just quits.
 
 The question is, did the author of this article have an ethical decision to speak up about first, how all the results led to promoting a singular product, and second, to speak up about how the product was harming people.
 
