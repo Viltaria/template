@@ -11,7 +11,8 @@ summary: LoveMilkTea, It's a map app!
 ---
 
 <center>
-  <iframe src="https://www.youtube.com/watch?v=wLuSS2579hc" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+  <div class="ui embed" data-source="youtube" data-id="wLuSS2579hc" >
+	</div>
 
 </center>
 
