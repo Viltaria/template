@@ -31,6 +31,6 @@ In "The code I'm still ashamed of", the author describes a scenario where he was
 
 The question is, did the author of this article have an ethical decision to speak up about first, how all the results led to promoting a singular product, and second, to speak up about how the product was harming people.
 
-My answer is that the author should have spoken up about the second, but not the first. In response to the first question, misleading results have been a marketing technique in digital marketing for a while, and since doing it does not necessarily harm anyone, I do not believe he should be ashamed of doing it. I do think however that he should have said something to someone when he found out that the drug they were promoting was harming people, he should have said something. Whether to his boss, or his boss's boss, he should have done something.
+My opinion is that the author should have spoken up about the second, but not the first. In response to the first question, misleading results have been a marketing technique in digital marketing for a while, and since doing it does not necessarily harm anyone, I do not believe he should be ashamed of doing it. I do think however that he should have said something to someone when he found out that the drug they were promoting was harming people, he should have said something. Whether to his boss, or his boss's boss, he should have done something.
 
 That's my take on it, what's yours?

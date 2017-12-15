@@ -59,5 +59,6 @@ One feature that we did not have enough time for and would like to implement is 
 - json
 - apache
 - javascript
+
 # Try it out
-- lovemilktea.herokuapp.com
+[lovemilktea.herokuapp.com](https://lovemilktea.herokuapp.com/)

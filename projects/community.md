@@ -60,3 +60,6 @@ My main contributions to the project were implementing Comments and Likes, as we
 
 ## What I learned
 I learned a lot from this experience. This project gave me some real experience in working in a group, something that most other classes don't give me. What I learned in working in my group is that communication is key, and that minor miscommunications can build up and create severe application code conflicts. Another thing I learned is that while developing in a group, it is important that everyone has a clear goal about what to do, so they aren't doing nothing.
+
+## Extras
+If you want to learn more about this project, please visit our github.io site [here](https://uhcommunity.github.io/).
